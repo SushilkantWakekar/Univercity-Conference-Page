@@ -1,0 +1,30 @@
+.schedule-card{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 85%;
+    list-style-type: none;
+    
+    
+}
+
+.clock-container{
+    
+    height: 70px;
+    width: 70px;
+    
+}
+
+.clock-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    /* display: none; */
+}
+
+.card{
+    height: 70px;
+    width: 70px;
+}
+

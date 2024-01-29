@@ -1,0 +1,102 @@
+.fee-details-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* width: 100vw; */
+    align-items: center;
+    gap: 20px;
+}
+
+.fee-category-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black;  */
+    box-shadow: 2px 2px 5px #214ea1;
+    width:  220px;
+    gap: 0;
+    height: auto;
+    padding: 10px;
+}
+
+.categories{
+    display: flex;
+    width: 220px;
+    /* box-shadow: 2px 2px 5px #759eeb; */
+    /* border: 1px solid red;  */
+    border-bottom: 2px solid #214ea1;
+    justify-content: center;
+    text-align: center;
+    min-height: 50px;
+    align-items: center;
+}
+
+.heading{
+    font-weight: 30px;
+    font-weight: 700;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.register{
+    height: 32px;
+    width: 150px;
+    border-radius: 8px;
+    margin: 20px;
+    border: 1px solid #214ea1;
+    background-color: #fff;
+    align-self: center;
+}
+
+.anch{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .fee-details-container{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .fee-category-card{
+        flex-direction: row;
+        width:  480px;
+        /* flex-grow: calc(100); */
+        /* width: 760px; */
+        align-items: center;
+        justify-content: center;       
+    }
+    .categories{ 
+       width: 96px;
+       /* max-width: 150px; */
+       /* border: 1px solid red;  */
+       border-right: 2px solid #214ea1;
+       border-bottom: none;
+       text-align: center;
+       /* padding: 10px; */
+       height: 150px;
+    }
+
+    .last_border{
+        border-right: none;
+    }
+}
+
+.last_border{
+    border-bottom: none;
+}
+
+.sub-heading{
+    color: #302072;
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
