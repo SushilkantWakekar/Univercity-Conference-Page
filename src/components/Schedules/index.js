@@ -2,18 +2,18 @@ import './index.css'
 
 const Schedules = props => {
     const {data} = props ;
-    const {imageUrl,time,venue} = data ;
+    const {time,eventType} = data ;
     return(
+        
         <li className= 'schedule-card'>
-            <div className='clock-container'>
-                <img src = {imageUrl} className='clock-img' alt='clock'/>
-            </div>
-            <div className="card">
+        
+            <div className="time-card">
                 <h4>{time}</h4>
             </div>
             <div className="card">
-                <h4>{venue}</h4>
+                <h4>{eventType}</h4>
             </div>    
+            
         </li>
     )
 }

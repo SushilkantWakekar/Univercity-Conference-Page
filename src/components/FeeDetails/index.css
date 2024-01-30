@@ -1,5 +1,6 @@
 .fee-details-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
     /* width: 100vw; */
@@ -9,6 +10,7 @@
 
 .fee-category-card{
     display: flex;
+    
     flex-direction: column;
     align-items: center;
     /* border: 1px solid black;  */
@@ -34,6 +36,7 @@
 .heading{
     font-weight: 30px;
     font-weight: 700;
+    text-align: center;
 }
 .button-container{
     display: flex;
@@ -57,35 +60,6 @@
     font-size: 15px;
 }
 
-@media screen and (max-width: 767px) {
-    .fee-details-container{
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-
-    .fee-category-card{
-        flex-direction: row;
-        width:  480px;
-        /* flex-grow: calc(100); */
-        /* width: 760px; */
-        align-items: center;
-        justify-content: center;       
-    }
-    .categories{ 
-       width: 96px;
-       /* max-width: 150px; */
-       /* border: 1px solid red;  */
-       border-right: 2px solid #214ea1;
-       border-bottom: none;
-       text-align: center;
-       /* padding: 10px; */
-       height: 150px;
-    }
-
-    .last_border{
-        border-right: none;
-    }
-}
 
 .last_border{
     border-bottom: none;
@@ -100,3 +74,24 @@
     margin-top: 50px;
 }
 
+.span-text{
+    margin-right: 5px;
+    color: #fff;
+    background-color: #302072;
+    display: none;
+}
+
+
+
+@media screen and (max-width:800px) {
+    .delegate-category{
+        display: none;
+    }
+    .categories{
+        justify-content: flex-start;
+    }
+    
+    .span-text{
+        display: inline;
+    }
+}

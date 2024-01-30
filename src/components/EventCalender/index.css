@@ -1,6 +1,7 @@
 .main-calender-container{
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 30px;
     padding: 20px;
     justify-content: center;
     margin: 20px;
@@ -10,8 +11,9 @@
     display: flex;
     flex-direction: column;
     /* border: 1px solid black; */
-    width: 330px;
-    height: 410px;
+    min-width:320px;
+    max-width: 450px;
+    height: auto;
     background-color: #F0F2F6;
     box-shadow: 2px 2px 8px black;
 }
@@ -31,17 +33,7 @@
     width: 25px;
 }
 
-@media screen and (max-width: 767px) {
-    .main-calender-container{
-        flex-direction : column ;
-        align-items: center;
-    }
-    .calender-card{
-        height: 420px;
-        width: 380px;
-    }
 
-}
 
 .sub-heading{
     color: #302072;
@@ -51,3 +43,32 @@
     margin-bottom: 50px;
     margin-top: 50px;
 }
+
+.schedule-card{
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+    
+    
+    /* width: 100%; */
+    
+}
+
+.program-type{
+    display: flex;
+    margin-top: 5px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(to right,#d6dad2,#56585a);
+    color: #fff;
+}
+
+.events{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+

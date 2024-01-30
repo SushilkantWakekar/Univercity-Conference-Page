@@ -1,0 +1,32 @@
+
+.theme-name{
+    /* background-image: linear-gradient(to right,#456EC6,#3499E7); */
+   
+    margin-top: 0;
+    text-align: center;
+}
+
+.subthemes{
+    list-style-type: circle;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #32363d;
+    font-size: 20px;
+    margin-left: 0;
+}
+
+.list-container{
+    /* border: 1px solid red; */
+    width:  295px;
+    margin-left: 0;
+    padding-left: 0;
+    box-shadow: 2px 2px 5px #462b70;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    transition: all  0.5s ease-in-out;
+}
+
+.list-container:hover{
+    transform: scale(1.04);
+}
