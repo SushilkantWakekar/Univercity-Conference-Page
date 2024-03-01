@@ -17,9 +17,10 @@
 
 .list-container{
     /* border: 1px solid red; */
+    list-style-type: none;
     width:  295px;
     margin-left: 0;
-    padding-left: 0;
+   
     box-shadow: 2px 2px 5px #462b70;
     border-radius: 8px;
     padding: 20px;

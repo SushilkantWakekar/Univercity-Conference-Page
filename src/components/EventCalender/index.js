@@ -1,3 +1,4 @@
+import FeeDetails from '../FeeDetails';
 import Schedules from '../Schedules';
 import './index.css'
 import { SlCalender } from "react-icons/sl";
@@ -176,6 +177,7 @@ const EventCalender = () =>{
 
             
         </div>
+        <FeeDetails />
         </>
     )
     

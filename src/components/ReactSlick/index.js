@@ -9,7 +9,7 @@ import {BsArrowLeft, BsArrowRight,} from 'react-icons/bs';
 import img1 from './images/img1.jpg'
 import img2 from './images/img2.jpg';
 import img3 from './images/img3.jpg';
-import img4 from './images/img4.jpg';
+import img4 from './images/img4.png';
 
 const images = [img1, img2, img3, img4];
 const speakerName = ['Prof. Dr. Alok Kumar Chakrawal, Guru Ghasidas Vishwavidyalaya, Bilaspur University, Billaspur',
