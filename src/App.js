@@ -13,7 +13,8 @@ function App() {
     <>
       <Navbar />
       <Routes>
-          <Route path='/home' element = {<Home />}></Route>
+          <Route path='/' element = {<Home />}></Route>
+          {/* <Route path='/home' element = {<Home />}></Route> */}
           <Route path='/speakers' element = {<ReactSlick />}></Route>
           <Route path='/themes' element = {<Themes />}></Route>
           <Route path='/events' element = {<EventCalender />}></Route>
