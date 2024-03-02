@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/Univercity-Conference-Page/static/css/main.9158337e.css",
-    "main.js": "/Univercity-Conference-Page/static/js/main.80945d15.js",
-    "static/js/453.35519ece.chunk.js": "/Univercity-Conference-Page/static/js/453.35519ece.chunk.js",
-    "static/media/university.jpg": "/Univercity-Conference-Page/static/media/university.fd4691b1cf7093958bbc.jpg",
-    "static/media/img3.jpg": "/Univercity-Conference-Page/static/media/img3.f41c03150898cb819eb9.jpg",
-    "static/media/img1.jpg": "/Univercity-Conference-Page/static/media/img1.628d422861d64ae35ee4.jpg",
-    "static/media/img2.jpg": "/Univercity-Conference-Page/static/media/img2.b1a4495735d6e94d3e17.jpg",
-    "static/media/img4.png": "/Univercity-Conference-Page/static/media/img4.bdf627fa41ab916871a9.png",
-    "static/media/slick.svg": "/Univercity-Conference-Page/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/Univercity-Conference-Page/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/Univercity-Conference-Page/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/Univercity-Conference-Page/static/media/slick.295183786cd8a1389865.woff",
+    "main.css": "/Univercity-Conference-Page/static/css/main.0f89631a.chunk.css",
+    "main.js": "/Univercity-Conference-Page/static/js/main.fcf9400c.chunk.js",
+    "main.js.map": "/Univercity-Conference-Page/static/js/main.fcf9400c.chunk.js.map",
+    "runtime~main.js": "/Univercity-Conference-Page/static/js/runtime~main.8a7cb006.js",
+    "runtime~main.js.map": "/Univercity-Conference-Page/static/js/runtime~main.8a7cb006.js.map",
+    "static/css/2.a6a3f75a.chunk.css": "/Univercity-Conference-Page/static/css/2.a6a3f75a.chunk.css",
+    "static/js/2.986155a6.chunk.js": "/Univercity-Conference-Page/static/js/2.986155a6.chunk.js",
+    "static/js/2.986155a6.chunk.js.map": "/Univercity-Conference-Page/static/js/2.986155a6.chunk.js.map",
+    "static/js/3.40a56a06.chunk.js": "/Univercity-Conference-Page/static/js/3.40a56a06.chunk.js",
+    "static/js/3.40a56a06.chunk.js.map": "/Univercity-Conference-Page/static/js/3.40a56a06.chunk.js.map",
     "index.html": "/Univercity-Conference-Page/index.html",
-    "main.9158337e.css.map": "/Univercity-Conference-Page/static/css/main.9158337e.css.map",
-    "main.80945d15.js.map": "/Univercity-Conference-Page/static/js/main.80945d15.js.map",
-    "453.35519ece.chunk.js.map": "/Univercity-Conference-Page/static/js/453.35519ece.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.9158337e.css",
-    "static/js/main.80945d15.js"
-  ]
+    "precache-manifest.e9d2e2672effed4ed996317a97a8f9e6.js": "/Univercity-Conference-Page/precache-manifest.e9d2e2672effed4ed996317a97a8f9e6.js",
+    "service-worker.js": "/Univercity-Conference-Page/service-worker.js",
+    "static/css/2.a6a3f75a.chunk.css.map": "/Univercity-Conference-Page/static/css/2.a6a3f75a.chunk.css.map",
+    "static/css/main.0f89631a.chunk.css.map": "/Univercity-Conference-Page/static/css/main.0f89631a.chunk.css.map",
+    "static/media/img1.jpg": "/Univercity-Conference-Page/static/media/img1.c9db9227.jpg",
+    "static/media/img2.jpg": "/Univercity-Conference-Page/static/media/img2.817b3df7.jpg",
+    "static/media/img3.jpg": "/Univercity-Conference-Page/static/media/img3.f21023b9.jpg",
+    "static/media/img4.png": "/Univercity-Conference-Page/static/media/img4.f8fdc485.png",
+    "static/media/index.css": "/Univercity-Conference-Page/static/media/slick.f97e3bbf.svg",
+    "static/media/university.jpg": "/Univercity-Conference-Page/static/media/university.23d916ba.jpg"
+  }
 }
