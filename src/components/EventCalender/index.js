@@ -2,6 +2,7 @@ import FeeDetails from '../FeeDetails';
 import Schedules from '../Schedules';
 import './index.css'
 import { SlCalender } from "react-icons/sl";
+import React from 'react';
 
 const registration = [
     {
@@ -97,7 +98,7 @@ const valedictory = [
 const EventCalender = () =>{
 
     return(
-        <>
+       <>
         <h2 className='sub-heading'>Program Schedules</h2>
         <div className='main-calender-container'>
             

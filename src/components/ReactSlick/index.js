@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Slider from 'react-slick';
 import './index.css';
+import React from 'react';
 
 // import icons
 import {BsArrowLeft, BsArrowRight,} from 'react-icons/bs';

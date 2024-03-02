@@ -1,5 +1,6 @@
-import DisplayThemes from '../DisplayThemes'
-import './index.css'
+import DisplayThemes from '../DisplayThemes';
+import React from 'react';
+import './index.css';
 //import ThemesData from './components/ThemesData';
 
 const themeDetails = [

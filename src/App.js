@@ -1,5 +1,6 @@
 
 import './App.css';
+import React from 'react';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import { Routes, Route } from "react-router-dom";
@@ -13,12 +14,11 @@ function App() {
     <>
       <Navbar />
       <Routes>
-          <Route path='/' element = {<Home />}></Route>
-          {/* <Route path='/home' element = {<Home />}></Route> */}
+          <Route exact path='/' element = {<Home />}></Route>
           <Route path='/speakers' element = {<ReactSlick />}></Route>
           <Route path='/themes' element = {<Themes />}></Route>
           <Route path='/events' element = {<EventCalender />}></Route>
-
+          
         </Routes>  
         <Footer />
    
