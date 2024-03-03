@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Univercity-Conference-Page/precache-manifest.e9d2e2672effed4ed996317a97a8f9e6.js"
+  "/Univercity-Conference-Page/precache-manifest.98ae15f2a71126559314bcc4fd7af917.js"
 );
 
 self.addEventListener('message', (event) => {

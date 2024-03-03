@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f3328eae8a680f84d6315461720370c1",
+    "revision": "16a7ec0397e12128113919121d63182e",
     "url": "/Univercity-Conference-Page/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Univercity-Conference-Page/static/css/2.a6a3f75a.chunk.css"
   },
   {
-    "revision": "cecf88cf467c1d8e970f",
-    "url": "/Univercity-Conference-Page/static/css/main.0f89631a.chunk.css"
+    "revision": "2ae5ecab9ba14f4fcfc6",
+    "url": "/Univercity-Conference-Page/static/css/main.9a46a38f.chunk.css"
   },
   {
     "revision": "958fb42d2685ce72a22c",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Univercity-Conference-Page/static/js/3.40a56a06.chunk.js"
   },
   {
-    "revision": "cecf88cf467c1d8e970f",
+    "revision": "2ae5ecab9ba14f4fcfc6",
     "url": "/Univercity-Conference-Page/static/js/main.fcf9400c.chunk.js"
   },
   {
