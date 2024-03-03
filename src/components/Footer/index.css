@@ -4,7 +4,7 @@
     align-items: center;
     margin-top: 50px;
     background-image: linear-gradient(to right,#466CC4,#3498E7); 
-    height: 200px;
+    height: auto;
     padding: 10px;
 }
 
@@ -28,4 +28,10 @@
     border: 1px solid #fff;
     padding: 10px;
     border-radius: 8px;
+}
+
+@media screen and (max-width:674px) {
+    .address-bar{
+        margin-left: 20px;
+    }
 }
