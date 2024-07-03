@@ -1,7 +1,7 @@
 
 .theme-name{
     /* background-image: linear-gradient(to right,#456EC6,#3499E7); */
-   
+    color: #302072;
     margin-top: 0;
     text-align: center;
 }
@@ -11,6 +11,7 @@
     text-align: left;
     margin-bottom: 5px;
     color: #32363d;
+    /* color: #111111; */
     font-size: 20px;
     margin-left: 0;
 }
@@ -20,8 +21,9 @@
     list-style-type: none;
     width:  295px;
     margin-left: 0;
-   
-    box-shadow: 2px 2px 5px #462b70;
+    /* background-image: linear-gradient(to top,#456EC6,#ffffff);  */
+    /* background-color: #ced8f8; */
+    box-shadow: 2px 2px 5px #383838;
     border-radius: 8px;
     padding: 20px;
     margin: 20px;
