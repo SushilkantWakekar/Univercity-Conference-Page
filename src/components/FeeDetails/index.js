@@ -134,7 +134,7 @@ const FeeDetails = () => {
 
 
         <div className='button-container'>
-            <button className='register'><a href='https://forms.gle/5SpfLZ28iUWf84aV7' className='anch'  >Registration</a></button>
+            <button className='register'><a href='registration' className='anch'  >Registration</a></button>
         </div>
         
 

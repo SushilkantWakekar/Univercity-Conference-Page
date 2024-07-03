@@ -19,6 +19,7 @@ const Home = () => {
 <Themes />
 <EventCalender />
 <FeeDetails />
+
 </>
   )
 }

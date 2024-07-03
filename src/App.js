@@ -8,6 +8,7 @@ import ReactSlick from './components/ReactSlick';
 import Themes from './components/Themes';
 import EventCalender from './components/EventCalender';
 import Footer from './components/Footer';
+import Registration from './components/Registration';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/speakers' element = {<ReactSlick />}></Route>
           <Route path='/themes' element = {<Themes />}></Route>
           <Route path='/events' element = {<EventCalender />}></Route>
+          <Route path='/registration' element = {<Registration />}></Route>
           
         </Routes>  
         <Footer />
